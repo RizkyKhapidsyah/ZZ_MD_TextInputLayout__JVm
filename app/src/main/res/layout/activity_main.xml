@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_1_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ET_1_IDXML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ET_1_IDXML" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_2_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TIL_1_IDXML">
+
+        <EditText
+            android:id="@+id/ET_2_IDXML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ET_2_IDXML" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_3_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TIL_2_IDXML">
+
+        <EditText
+            android:id="@+id/ET_3_IDXML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ET_3_IDXML" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
